@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="258dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dribbble_bg"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#C5B072"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="Email"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:textStyle="italic"
+        android:textColor="#C5B072"
+        android:background="@drawable/input_bg"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etEmail2"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"></EditText>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:textStyle="italic"
+        android:textColor="#C5B072"
+        android:background="@drawable/input_bg"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etPassword2"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"></EditText>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:text="login"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_login"></androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? sign up"
+        android:textColor="#C5B072"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/linktextview2"></TextView>
+
+
+</LinearLayout>
